@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">   
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Website</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="stylec.css">
+</head>
+
+<body>
+     <section id="header">
+        <a href="#"><img src="img/Pin en svg.jpeg" class="logo" alt="" width="80" height="70"></a>
+        <h1>Aroma Adventure</h1>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>  
+     </section>
+
+     <div class="contact-container">
+        <header class="contact-header">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you! Reach out to us with any questions, feedback, or inquiries.</p>
+        </header>
+
+        <section class="contact-info">
+            <div class="info-item">
+                <h3>Address</h3>
+                <p>123 Fragrance Lane,<br>Wellawatte,Colombo,<br>Srilanka.</p>
+
+            </div>
+            <div class="info-item">
+                <h3>Email</h3>
+                <p>aromaadventure@gmail.com</p>
+            </div>
+            <div class="info-item">
+                <h3>Phone</h3>
+                <p>+94 771892001</p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h3>Get in Touch</h3>
+            <form action="/submit-contact" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Type your message here" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </div>
+
+     <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>ABOUT</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+            <div class="footer-section">
+                <h4>ACCOUNT</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                
+            </div>
+            <div class="footer-section">
+                <h4>CONTACT</h4>
+                <a href="#">Tel: +94 771892001</a>
+                <a href="#">Email: Perfumesl@gmail.com</a>
+                <a href="#">Hours: 24 hours</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="footer-section">
+                <h4>FOLLOW US</h4>
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>DOWNLOAD OUR APP</h4>
+                <a href="#"><img src="img/app/playstore.png" alt="Google Play"></a>
+                <a href="#"><img src="img/app/appstore.png" alt="App Store"></a>
+            </div>            
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright ©2024 All rights reserved |Perfume - Aroma Adventure Website</p>
+        </div>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+
+
+</html >
